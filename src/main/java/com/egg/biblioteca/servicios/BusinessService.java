@@ -18,7 +18,7 @@ public class BusinessService {
         
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(email);
-        message.setSubject("Bienvenido");
+        message.setSubject("Gracias Por Contactarte con Egg");
         message.setText("Buenas " + nombre + ", desde ya muchas gracias por contactarte con Egg, "
                 + "te responderemos a la brevedad, Muchas Gracias." + "\n"
                 + "Atte Elias Giovanella." + "\n"
