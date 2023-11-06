@@ -76,7 +76,6 @@ public class LibroService {
             editorial = respuestaEditorial.get();
         }
         
-        
         if (respuestaLibro.isPresent()) {
             Libro libro = respuestaLibro.get();
             
